@@ -1,20 +1,17 @@
 {
-  "name": "angular-bootstrap-checkbox",
+  "name": "angular-bootstrap-ok-checkbox",
   "version": "0.3.1",
   "authors": [
-    "Sebastian Hammerl, Getslash GmbH"
+    "RedTurtle Technology"
   ],
-  "description": "A checkbox for AngularJS styled to fit the Twitter Bootstrap standard design",
-  "main": "angular-bootstrap-checkbox.js",
+  "description": "A custom version of angular-bootstrap-checkbox.",
+  "main": "angular-bootstrap-ok-checkbox.js",
   "keywords": [
     "angular",
     "angularjs",
-    "directive",
-    "ui",
     "bootstrap",
-    "form",
-    "input",
-    "checkbox"
+    "checkbox",
+    "input"
   ],
   "license": "MIT",
   "ignore": [

@@ -6,7 +6,7 @@ module.exports = function(config) {
 		basePath     : '',
 		frameworks   : ["ng-scenario"],
 		files        : [
-			"angular-bootstrap-checkbox.js",
+			"angular-bootstrap-ok-checkbox.js",
 			"app.js",
 			"test.js",
 			"index.html"
