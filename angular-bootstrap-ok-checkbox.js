@@ -1,12 +1,12 @@
 "use strict";
 
-angular.module("ui.checkbox", []).directive("checkbox", function() {
+angular.module("ui.okcheckbox", []).directive("okcheckbox", function() {
 	return {
 		scope: {},
 		require: "ngModel",
 		restrict: "E",
 		replace: "true",
-		template: "<button type=\"button\" ng-style=\"stylebtn\" class=\"btn btn-default\" ng-class=\"{'btn-xs': size==='default', 'btn-sm': size==='large', 'btn-lg': size==='largest', 'checked': checked===true}\">" +
+		template: "<button type=\"button\" ng-style=\"stylebtn\" class=\"btn\" ng-class=\"{'btn-xs': size==='default', 'btn-sm': size==='large', 'btn-lg': size==='largest', 'btn-danger': checked===false, 'btn-success': checked===true}\">" +
 			"<span ng-style=\"styleicon\" class=\"glyphicon\" ng-class=\"{'glyphicon-ok': checked===true}\"></span>" +
 			"</button>",
 		link: function(scope, elem, attrs, modelCtrl) {
